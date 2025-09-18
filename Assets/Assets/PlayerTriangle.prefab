@@ -185,10 +185,10 @@ MonoBehaviour:
     m_Bits: 64
   pushableLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   breakableWallLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 256
 --- !u!1 &8361421088115091191
 GameObject:
   m_ObjectHideFlags: 0

@@ -172,4 +172,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultMass: 1000
-  pushableMass: 40
+  pushableMass: 20
