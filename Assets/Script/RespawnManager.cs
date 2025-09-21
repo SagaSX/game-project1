@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class RespawnManager : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class RespawnManager : MonoBehaviour
     public Transform defaultSpawnPoint;
     public GameObject deathParticlesPrefab;
     public GameObject respawnMenuPanel;    // UI Panel
+
+    public TMP_Text livesText;
 
     private Vector3 currentCheckpoint;
     private GameObject currentPlayer;
@@ -23,6 +26,7 @@ public class RespawnManager : MonoBehaviour
         // Hide menu at the start
         if (respawnMenuPanel != null)
             respawnMenuPanel.SetActive(false);
+        UpdateLivesUI();
     }
 
     // Called when player dies
@@ -36,6 +40,7 @@ public class RespawnManager : MonoBehaviour
             SFXManager.Instance.PlaySound(SFXManager.Instance.deathSound);
 
             currentDeath++;
+            UpdateLivesUI();
 
             if (currentDeath >= maxDeath)
             {
@@ -83,6 +88,13 @@ public class RespawnManager : MonoBehaviour
     void RestartStage()
     {
         currentDeath = 0;
+        UpdateLivesUI();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    private void UpdateLivesUI()
+    {
+        int livesLife = maxDeath - currentDeath;
+        livesText.text = "Lives: " +livesLife.ToString();
     }
 }
