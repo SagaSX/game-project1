@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\Game Unity\\Game jam #1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E98BADAA-DAE9-19B3-955D-70194AB9AF0A}|Assembly-CSharp.csproj|D:\\Game Unity\\Game jam #1\\assets\\script\\respawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E98BADAA-DAE9-19B3-955D-70194AB9AF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\respawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E98BADAA-DAE9-19B3-955D-70194AB9AF0A}|Assembly-CSharp.csproj|d:\\game unity\\game jam #1\\assets\\script\\trianglemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E98BADAA-DAE9-19B3-955D-70194AB9AF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\trianglemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E98BADAA-DAE9-19B3-955D-70194AB9AF0A}|Assembly-CSharp.csproj|D:\\Game Unity\\Game jam #1\\assets\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E98BADAA-DAE9-19B3-955D-70194AB9AF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Game Unity\\Game jam #1\\Library\\PackageCache\\com.unity.textmeshpro@3.0.7\\Scripts\\Runtime\\TMP_Text.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.textmeshpro@3.0.7\\Scripts\\Runtime\\TMP_Text.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TriangleMovement.cs",
-              "DocumentMoniker": "D:\\Game Unity\\Game jam #1\\Assets\\Script\\TriangleMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\TriangleMovement.cs",
-              "ToolTip": "D:\\Game Unity\\Game jam #1\\Assets\\Script\\TriangleMovement.cs",
-              "RelativeToolTip": "Assets\\Script\\TriangleMovement.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB8AAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T11:06:56.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "D:\\Game Unity\\Game jam #1\\Assets\\Script\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\PlayerMovement.cs",
-              "ToolTip": "D:\\Game Unity\\Game jam #1\\Assets\\Script\\PlayerMovement.cs*",
-              "RelativeToolTip": "Assets\\Script\\PlayerMovement.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T06:37:52.265Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RespawnManager.cs",
-              "DocumentMoniker": "D:\\Game Unity\\Game jam #1\\Assets\\Script\\RespawnManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\RespawnManager.cs",
-              "ToolTip": "D:\\Game Unity\\Game jam #1\\Assets\\Script\\RespawnManager.cs",
-              "RelativeToolTip": "Assets\\Script\\RespawnManager.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAYwEIAAABJAAAAAAAAAA==",
+              "Title": "TMP_Text.cs",
+              "DocumentMoniker": "D:\\Game Unity\\Game jam #1\\Library\\PackageCache\\com.unity.textmeshpro@3.0.7\\Scripts\\Runtime\\TMP_Text.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.textmeshpro@3.0.7\\Scripts\\Runtime\\TMP_Text.cs",
+              "ToolTip": "D:\\Game Unity\\Game jam #1\\Library\\PackageCache\\com.unity.textmeshpro@3.0.7\\Scripts\\Runtime\\TMP_Text.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.textmeshpro@3.0.7\\Scripts\\Runtime\\TMP_Text.cs",
+              "ViewState": "AgIAAKMXAAAAAAAAAAAkwMAXAACIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T08:23:41.739Z",
+              "WhenOpened": "2025-09-21T09:20:09.935Z",
               "EditorCaption": ""
             }
           ]
