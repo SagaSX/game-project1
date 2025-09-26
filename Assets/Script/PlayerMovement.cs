@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
 
-        if (Input.GetKey(KeyCode.UpArrow) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             SFXManager.Instance.PlaySound(SFXManager.Instance.jumpSound, 0.2f);
@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
 
         isPushable = Physics2D.OverlapCircle(groundCheck.position, 0.1f, pushableLayer);
 
-        if (Input.GetKey(KeyCode.UpArrow) && isPushable)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && isPushable)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             SFXManager.Instance.PlaySound(SFXManager.Instance.jumpSound, 0.2f);
