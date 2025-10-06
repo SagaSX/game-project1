@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  jumpForce: 3.5
+  jumpForce: 4
   dashSpeed: 7
   dashDuration: 0.2
   groundCheck: {fileID: 3146215103554794003}

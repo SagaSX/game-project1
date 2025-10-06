@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "D:\\Game Unity\\Game jam #1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E98BADAA-DAE9-19B3-955D-70194AB9AF0A}|Assembly-CSharp.csproj|d:\\game unity\\game jam #1\\assets\\script\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E98BADAA-DAE9-19B3-955D-70194AB9AF0A}|Assembly-CSharp.csproj|d:\\game unity\\game jam #1\\assets\\script\\finishtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98BADAA-DAE9-19B3-955D-70194AB9AF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\finishtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98BADAA-DAE9-19B3-955D-70194AB9AF0A}|Assembly-CSharp.csproj|d:\\game unity\\game jam #1\\assets\\script\\leveltransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98BADAA-DAE9-19B3-955D-70194AB9AF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\leveltransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98BADAA-DAE9-19B3-955D-70194AB9AF0A}|Assembly-CSharp.csproj|d:\\game unity\\game jam #1\\assets\\script\\sfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98BADAA-DAE9-19B3-955D-70194AB9AF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\sfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98BADAA-DAE9-19B3-955D-70194AB9AF0A}|Assembly-CSharp.csproj|D:\\Game Unity\\Game jam #1\\assets\\script\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E98BADAA-DAE9-19B3-955D-70194AB9AF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,6 +39,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FinishTrigger.cs",
+              "DocumentMoniker": "D:\\Game Unity\\Game jam #1\\Assets\\Script\\FinishTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\FinishTrigger.cs",
+              "ToolTip": "D:\\Game Unity\\Game jam #1\\Assets\\Script\\FinishTrigger.cs",
+              "RelativeToolTip": "Assets\\Script\\FinishTrigger.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T14:45:43.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LevelTransition.cs",
+              "DocumentMoniker": "D:\\Game Unity\\Game jam #1\\Assets\\Script\\LevelTransition.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\LevelTransition.cs",
+              "ToolTip": "D:\\Game Unity\\Game jam #1\\Assets\\Script\\LevelTransition.cs",
+              "RelativeToolTip": "Assets\\Script\\LevelTransition.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAADwv6oAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T11:28:57.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SFXManager.cs",
+              "DocumentMoniker": "D:\\Game Unity\\Game jam #1\\Assets\\Script\\SFXManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SFXManager.cs",
+              "ToolTip": "D:\\Game Unity\\Game jam #1\\Assets\\Script\\SFXManager.cs",
+              "RelativeToolTip": "Assets\\Script\\SFXManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:40:59.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "D:\\Game Unity\\Game jam #1\\Assets\\Script\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\MainMenu.cs",
@@ -34,12 +85,11 @@
               "RelativeToolTip": "Assets\\Script\\MainMenu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T16:23:24.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T16:23:24.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ProjectGeneration.cs",
               "DocumentMoniker": "D:\\Game Unity\\Game jam #1\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.22\\Editor\\ProjectGeneration\\ProjectGeneration.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ide.visualstudio@2.0.22\\Editor\\ProjectGeneration\\ProjectGeneration.cs",
@@ -47,12 +97,11 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.ide.visualstudio@2.0.22\\Editor\\ProjectGeneration\\ProjectGeneration.cs",
               "ViewState": "AgIAAF8DAAAAAAAAAAAtwG8DAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:45:44.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T08:45:44.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "TMP_Text.cs",
               "DocumentMoniker": "D:\\Game Unity\\Game jam #1\\Library\\PackageCache\\com.unity.textmeshpro@3.0.7\\Scripts\\Runtime\\TMP_Text.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.textmeshpro@3.0.7\\Scripts\\Runtime\\TMP_Text.cs",
@@ -60,8 +109,7 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.textmeshpro@3.0.7\\Scripts\\Runtime\\TMP_Text.cs",
               "ViewState": "AgIAAKMXAAAAAAAAAAAkwMAXAACIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T09:20:09.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T09:20:09.935Z"
             }
           ]
         }
