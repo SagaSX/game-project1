@@ -9,25 +9,33 @@ public class FinishTrigger : MonoBehaviour
             other.CompareTag("PlayerCircle") ||
             other.CompareTag("PlayerTriangle"))
         {
-            LoadNextLevel();
+            // Trigger fade transition if available
+            if (SceneTransitionManager.Instance != null)
+            {
+                SceneTransitionManager.Instance.LoadNextScene();
+            }
+            else
+            {
+                Debug.LogWarning("SceneTransitionManager not found! Loading directly...");
+                LoadNextLevelDirect();
+            }
         }
     }
 
-    void LoadNextLevel()
+    // Backup method if no transition manager found
+    private void LoadNextLevelDirect()
     {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int currentSceneIndex = UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex;
         int nextSceneIndex = currentSceneIndex + 1;
 
-        // If this is the last scene, reload the first one
-        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        if (nextSceneIndex < UnityEngine.SceneManagement.SceneManager.sceneCountInBuildSettings)
         {
-            SceneManager.LoadScene(nextSceneIndex);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(nextSceneIndex);
         }
         else
         {
-            // Optional: Show "Game Complete" screen
             Debug.Log("Game Complete!");
-            SceneManager.LoadScene(0); // or reload current level
+            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
         }
     }
 }
