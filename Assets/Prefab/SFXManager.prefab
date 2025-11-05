@@ -48,6 +48,7 @@ MonoBehaviour:
   deathSound: {fileID: 8300000, guid: 011e186e419a5994a954f909dcf4fe6a, type: 3}
   jumpSound: {fileID: 8300000, guid: 5a988641c37027148b824027ca56a83b, type: 3}
   shrinkSound: {fileID: 8300000, guid: 9e820bb0a63a9c644b41b97b513b1890, type: 3}
+  explosionSound: {fileID: 8300000, guid: 7a2e7728abd0e1849977d4dbfe17727c, type: 3}
 --- !u!82 &7391274660681262770
 AudioSource:
   m_ObjectHideFlags: 0

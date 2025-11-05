@@ -31,7 +31,7 @@ public class SceneTransitionManager : MonoBehaviour
 
     private void Start()
     {
-        // Start with screen black, then fade in
+        
         if (fadeImage != null)
         {
             Color c = fadeImage.color;
