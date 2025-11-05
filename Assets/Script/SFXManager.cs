@@ -9,6 +9,7 @@ public class SFXManager : MonoBehaviour
     public AudioClip deathSound;
     public AudioClip jumpSound;
     public AudioClip shrinkSound;
+    public AudioClip explosionSound;
 
     private AudioSource audioSource;
 
@@ -24,5 +25,10 @@ public class SFXManager : MonoBehaviour
     {
         if (clip != null)
             audioSource.PlayOneShot(clip, volume);
+    }
+
+    public void PlayExplosion(float volume = 1f)
+    {
+        PlaySound(explosionSound, volume);
     }
 }

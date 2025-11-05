@@ -118,6 +118,11 @@ public class TriangleMovement : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Debug.Log("Broke a wall!");
+
+            if (SFXManager.Instance != null)
+            {
+                SFXManager.Instance.PlaySound(SFXManager.Instance.explosionSound, 1f);
+            }
         }
     }
 
